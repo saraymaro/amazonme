@@ -1,0 +1,51 @@
+body{
+    margin: 0%;
+}
+nav{
+    background-color: #AEBD38;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.navegacion{
+    display: flex;
+}
+.navegacion input[type=text]{
+    margin-top: 10px;
+    width: 400px;
+    height: 30px;
+}
+.navegacion button[type=submit]{
+    margin-top: 10px;
+    height: 35px;
+    background-color: #486B00;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0px;
+}
+.navegacion button[type=submit]:hover{
+    background-color: #DE7A22;
+}
+ul,li{
+    display: inline-flex
+}
+ul{
+    margin: 0%;
+}
+li{
+    margin: 15px;
+}
+a{
+    color: #C05905;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #486B00;
+    text-decoration: overline;
+    font-style: italic;
+}
+
+
